@@ -10,7 +10,7 @@ a {
     font-family: 'Lato', sans-serif;
 }
 
-.contain {
+.container {
     max-width: 1024px;
     margin: auto;
 }
