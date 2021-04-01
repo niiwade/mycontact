@@ -1,0 +1,13 @@
+ {
+     "name": "contacts_app",
+     "version": "1.0.0",
+     "description": "contacts app with express and mongodb where users can maintain theircontacts",
+
+     "main": "index.js",
+     "scripts": {
+         "test": "echo \"Error: no test specified\" && exit 1"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC"
+ }
