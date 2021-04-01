@@ -2,9 +2,11 @@
     "name": "contacts_app",
     "version": "1.0.0",
     "description": "contacts app with express and mongodb where users can maintain their contacts",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
     },
     "keywords": [],
     "author": "niiwade",
