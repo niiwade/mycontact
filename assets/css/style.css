@@ -56,3 +56,9 @@ a {
     background-clip: text;
     --webkit-text-fill-color: transparent;
 }
+
+#head nav {
+    background-color: rgb(4, 154, 255);
+    padding: 1em 0;
+    width: 100%;
+}
