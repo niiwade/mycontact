@@ -35,7 +35,7 @@ a {
 
 .border-shadow {
     border: 1px solid var(--border-btn);
-    box-shadow: 1px 3px 10px rgb(2, 140, 245);
+    box-shadow: 1px 3px 10px rgb(21, 43, 60);
 }
 
 .text-dark {
@@ -61,4 +61,14 @@ a {
     background-color: rgb(4, 154, 255);
     padding: 1em 0;
     width: 100%;
+}
+
+#site-main {
+    margin-top: 6em;
+    font-family: 'Lato', sans-serif;
+}
+
+#site-main .container .box-nav>a {
+    font-size: 1em;
+    padding: .5em 1em;
 }
