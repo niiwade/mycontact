@@ -14,3 +14,8 @@ a {
     max-width: 1024px;
     margin: auto;
 }
+
+.nav-brand {
+    font-size: 1.6em;
+    font-weight: bold;
+}
