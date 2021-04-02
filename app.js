@@ -27,9 +27,9 @@ app.use(morgan('tiny'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-
 //load assets
-app.use('/css', express.static(path.resolve(__dirname, "assets/css")));
+app.use(express.static(path.join(__dirname, "static")));
+app.use('/css', express.static(path.resolve(__dirname, "assets/css/style.css")));
 app.use('/js', express.static(path.resolve(__dirname, "assets/js")));
 app.use('/img', express.static(path.resolve(__dirname, "assets/img")));
 
