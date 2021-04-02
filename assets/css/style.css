@@ -37,3 +37,22 @@ a {
     border: 1px solid var(--border-btn);
     box-shadow: 1px 3px 10px rgb(2, 140, 245);
 }
+
+.text-dark {
+    color: aqua;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.text-light {
+    color: antiquewhite;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, rgba(169, 75, 247, 0.2), rgb(6, 143, 255));
+    --webkit-background-clip: text;
+    background-clip: text;
+    --webkit-text-fill-color: transparent;
+}
