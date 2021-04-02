@@ -19,3 +19,16 @@ a {
     font-size: 1.6em;
     font-weight: bold;
 }
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
