@@ -99,3 +99,7 @@ table {
 .table tr:hover {
     background-color: rgb(64, 210, 255);
 }
+
+.table tr:hover td>a {
+    box-shadow: none;
+}
