@@ -106,6 +106,28 @@ table {
 
 .table .thead-dark th {
     color: #fff;
-    background-color: rgb(37, 51, 58);
+    background-color: rgb(5, 38, 55);
     border-color: #32383e;
+}
+
+@media only screen and (max-width: 1024px) {
+    table,
+    thead,
+    tbody,
+    th,
+    tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -999px;
+        left: -999px
+    }
+    tr {
+        border: 1px solid var(--border);
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid var(--border);
+    }
 }
