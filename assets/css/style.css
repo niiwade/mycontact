@@ -103,3 +103,9 @@ table {
 .table tr:hover td>a {
     box-shadow: none;
 }
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: rgb(37, 51, 58);
+    border-color: #32383e;
+}
