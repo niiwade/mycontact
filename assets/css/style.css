@@ -45,4 +45,11 @@ a {
     color: #fff;
 }
 
-.text-gradient
+.text-gradient {
+    background: linear-gradient(to right, rgb(116, 85, 255), rgb(196, 68, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#head
