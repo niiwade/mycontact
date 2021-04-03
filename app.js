@@ -33,11 +33,14 @@ app.disable('etag'); // stops 304 error
 
 // Routes 
 app.use('/', require('./server/routes/index'));
-app.use('/add_user', require('./server/routes/add_user'));
+//app.use('/add_user', require('./server/routes/add_user'));
 app.get('/views/add_user.ejs', (req, res) => {
     res.render("add_user");
 });
 
+app.get('/views/edit_user.ejs', (req, res) => {
+    res.render("edit_user");
+});
 
 //app.get('/', (req, res) => {
 //res.render("index");
