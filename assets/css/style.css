@@ -98,3 +98,28 @@ table {
 .table tr:hover td>a {
     box-shadow: none;
 }
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: rgb(38, 38, 38);
+    border-color: rgb(44, 44, 44);
+}
+
+@media only screen and (max-width:1024px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px
+    }
+}
