@@ -90,3 +90,11 @@ table {
     font-size: 1.1em;
     margin: 0 .2em;
 }
+
+.table tr:hover {
+    background-color: aqua;
+}
+
+.table tr:hover td>a {
+    box-shadow: none;
+}
