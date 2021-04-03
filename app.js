@@ -10,10 +10,7 @@ const connectDB = require('./server/db/connect');
 const app = express();
 
 dotenv.config({ path: 'config.env' });
-const PORT = process.env.PORT || 3
-
-app.listen(process.env.PORT || 3000);
-000;
+const PORT = process.env.PORT || 8000;
 
 
 
