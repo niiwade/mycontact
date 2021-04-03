@@ -127,3 +127,14 @@ table {
         position: relative;
     }
 }
+
+
+/* add user & edit user */
+
+.form-title {
+    margin: 2em;
+}
+
+.form-title>h2 {
+    padding: .5em 0;
+}
