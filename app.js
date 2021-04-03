@@ -33,6 +33,8 @@ app.use('/js', express.static(path.join(__dirname, "assets/js")));
 
 // Routes 
 app.use('/', require('./server/routes/index'));
+app.use('/', require('./server/routes/add_user'));
+
 
 //app.get('/', (req, res) => {
 //res.render("index");
