@@ -10,7 +10,10 @@ const connectDB = require('./server/db/connect');
 const app = express();
 
 dotenv.config({ path: 'config.env' });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3
+
+app.listen(process.env.PORT || 3000);
+000;
 
 
 
@@ -50,6 +53,8 @@ app.get('/views/edit_user.ejs', (req, res) => {
 //res.render("index");
 //});
 
-app.listen(PORT, () => {
-    console.log(`Server is listening on http://localhost:${PORT}`);
-});
+//app.listen(PORT, () => {
+//    console.log(`Server is listening on http://localhost:${PORT}`);
+//});
+
+app.listen(process.env.PORT || 3000);
