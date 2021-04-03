@@ -9,3 +9,8 @@ a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+.contain {
+    max-width: 1024px;
+    margin: auto;
+}
