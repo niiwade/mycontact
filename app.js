@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 8000;
 app.use(morgan('tiny'));
 
 //mongo db coonection
+connectDB();
 
 //parser requests
 app.use(bodyparser.urlencoded({ extended: true }));
