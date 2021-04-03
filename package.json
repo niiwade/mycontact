@@ -6,9 +6,9 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack",
+        "heroku-prebuild": "npm install --dev",
+        "build": "webpack --mode production",
         "start": "nodemon app.js -e ejs,js,css,html,jpg,png,scss",
-        "heroku buildpack": "add --index 1 heroku/nodejs",
         "watch": "nodemon --ext ejs,js,css",
         "dev": "nodemon app.js"
     },
