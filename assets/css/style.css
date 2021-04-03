@@ -71,3 +71,8 @@ a {
 #main-site .contain form {
     margin: 2em 0;
 }
+
+table {
+    border-spacing: 0px;
+    width: 100%;
+}
