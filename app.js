@@ -29,7 +29,7 @@ app.use('/css', express.static(path.join(__dirname, "assets/css")));
 app.use('/js', express.static(path.join(__dirname, "assets/js")));
 //css/style.css
 
-
+app.disable('etag');
 
 // Routes 
 app.use('/', require('./server/routes/index'));
