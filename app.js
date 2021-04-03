@@ -26,12 +26,17 @@ app.set("view engine", "ejs");
 
 //load assets
 app.use('/css', express.static(path.join(__dirname, "assets/css")));
+app.use('/js', express.static(path.join(__dirname, "assets/js")));
 //css/style.css
 
 
-app.get('/', (req, res) => {
-    res.send("Hello");
-});
+
+// Routes 
+app.use('/', require('./server/routes/index'));
+
+//app.get('/', (req, res) => {
+//res.render("index");
+//});
 
 app.listen(PORT, () => {
     console.log(`Server is listening on http://localhost:${PORT}`);
