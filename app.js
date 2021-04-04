@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 8000;
 // logs
 app.use(morgan('tiny'));
 
-//mongo db coonection
+//mongo db coonection'
 connectDB();
 
 //parser requests
