@@ -1,7 +1,7 @@
 # mycontact
 visit https://3.15.23.181:3000/ to view app or either way use ssh to host it on localhost
 
-A contacts app built with express and mongodb where users can maintain their contacts
+A contacts app built with node js ,express and mongodb where users can maintain their contacts
 
 Please find attached the pem file and ssh into the AWS EC2 instance
  
